@@ -75,7 +75,6 @@ public class HitShop {
         int stock = sc.nextInt();
         sc.nextLine();
 
-        // Dùng một biến kiểu Product để lưu object thuộc Product, Book hoặc Cake
         Product newProduct = null;
 
         switch (type) {
@@ -98,7 +97,6 @@ public class HitShop {
         int quantity = sc.nextInt();
         sc.nextLine();
 
-        // Thêm vào danh sách products và thêm vào giỏ/đơn hiện tại
         products.add(newProduct);
         addItem(newProduct, quantity);
     }
